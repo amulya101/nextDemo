@@ -25,7 +25,7 @@ const links = [
 
 export default function NavLinks() {
   const pathname = usePathname();
-  console.log("LINKS from CLIENT SIDE", links)
+  console.log("LINKS from CLIENT SIDE in nav-links", links)
   return (
     <>
       {links.map((link) => {
